@@ -3,6 +3,7 @@
 > **Enterprise Cloud-Native Digital Forensics, Incident Response & Threat Graph Investigation Platform**
 
 [![Deploy Frontend to GitHub Pages](https://github.com/yug1204/netryx-evidence/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/yug1204/netryx-evidence/actions/workflows/deploy-pages.yml)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyug1204%2Fnetryx-evidence&root-directory=frontend)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue?style=flat&logo=github)](https://yug1204.github.io/netryx-evidence/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat&logo=fastapi)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)](https://react.dev)
