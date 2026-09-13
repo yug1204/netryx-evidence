@@ -13,10 +13,11 @@
 
 ---
 
-## 🌐 Live Access
+## 🌐 Live Production Access
 
-- **Public Interactive App:** [https://yug1204.github.io/netryx-evidence/](https://yug1204.github.io/netryx-evidence/)
-- **Repository:** [https://github.com/yug1204/netryx-evidence](https://github.com/yug1204/netryx-evidence)
+- **Live Production Platform:** [https://evidence-pkig.vercel.app](https://evidence-pkig.vercel.app)
+- **GitHub Repository:** [https://github.com/yug1204/netryx-evidence](https://github.com/yug1204/netryx-evidence)
+- **GitHub Pages Mirror:** [https://yug1204.github.io/netryx-evidence/](https://yug1204.github.io/netryx-evidence/)
 
 ---
 
