@@ -131,6 +131,28 @@ services:
         condition: service_healthy
     restart: unless-stopped
 
+  # ── Frontend (Nginx) ─────────────────────────────────────
+  frontend:
+    image: nginx:alpine
+    container_name: netryx-frontend
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend/dist:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  # ── Cloudflare Tunnel (Public URL) ───────────────────────
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: netryx-tunnel
+    command: tunnel --no-autoupdate --url http://frontend:80
+    depends_on:
+      - frontend
+    restart: unless-stopped
+
 volumes:
   postgres_data:
   neo4j_data:
